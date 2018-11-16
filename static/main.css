@@ -1,0 +1,276 @@
+*{
+	box-sizing: border-box;
+	
+}
+body {
+	overflow-x:hidden;
+	background:rgb(230, 228, 228);
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: 400;
+	line-height: 23px;
+    font-size: 15px;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.navbar-fixed-top,{
+	background-color:#3f5267;
+  	position: fixed; 
+  	right: 0;
+  	left: 0;
+	z-index: 1030;
+	max-height: 62px;
+	
+}
+.nav-link {
+	color: #fff !important;
+}
+
+.nav-link:hover {
+	
+		color:#cccccc !important;
+		font-weight:10;
+		text-decoration:none;
+	
+}
+
+header {
+	border-bottom:#e8491d;
+	background-color:#3f5267;
+	padding-bottom:2.5px;	
+	
+}
+.wrapper{
+	box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+		
+}
+  
+.wrapper > *{
+	padding: 1em;	
+}
+.request{
+	background:#f9feff;
+}
+
+/* FORM STYLES */
+  
+.request form {	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:10px;	
+}
+  
+  .request form label, loginsec form label{
+	display:block;
+	margin-bottom:0;
+  }
+  
+  .request form p{
+	margin:0;
+  }
+  
+  .request form .full, loginsec form .full{
+	grid-column: 1 / 3;
+  }
+  
+  #display button, .request form button, .request form input, .request form textarea,.loginsec form button{
+	width:100%;
+	padding:4px;
+	border:1px solid #c9e6ff;
+  }
+  
+  #display button, .request form button, .loginsec form button{
+	background:#c9e6ff;
+	padding: 6px;
+	border:0;
+	text-transform: uppercase;
+	
+  }
+  #jobs #red {
+    padding: 5px;
+	border:0;
+    text-transform: uppercase;
+    background:#e79292;
+    border:1px solid #8ec5f5;
+  }
+  #jobs #green {
+    padding: 5px;
+	border:0;
+    text-transform: uppercase;
+    background:#79c879;
+    border:1px solid #8ec5f5;
+  }
+  
+   .request form button:hover,.request form button:focus, .loginsec form button:hover, .loginsec form button:focus{
+	background:#92bde7;
+	color:#fff;
+	outline:0;
+	transition: background-color 2s ease-out;
+  }
+ #requestForm {
+     margin-top: 20px
+ }
+
+  #requestForm .container, #login .container{
+	padding: 20px 10px 20px 10px;
+  }
+
+  .alert {
+	  text-align:center;
+	  padding:10px;
+	  background:#79c879;
+	  color: #fff;
+	  margin-bottom:10px;
+	  display:none;
+  }
+
+  .company-info{
+	background:#c9e6ff;
+  }
+  .info li{
+    list-style-type:none;
+    text-align:center;
+    padding-right:2.5em;
+ }
+
+ #display .wrapper{
+    background:#c9e6ff;
+    padding-bottom: 15px
+ }
+
+ .deliveries {
+    height:415px;
+    width:300px;
+    background-color: white;
+    scrollbar-base-color:gold;
+    border:1px solid #ccc;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow:auto;
+    margin-top: -20px;
+    padding-right: 0px;
+    padding-left: 0px;
+ }
+ #deliveries {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    background-color:#fff;
+    width: 100%
+}
+ #deliveries td, #deliveries th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    height: 30px;
+}
+#deliveries tr:nth-child(even){background-color: #f2f2f2;}
+
+#login {
+    padding-top: 3em
+    
+}
+
+#login form {
+    padding-top: 2em;
+}
+
+#login .wrapper {    
+    background:#f9feff;
+    width: 20em;
+}
+
+#login h3 {
+    padding-top:1em;
+}
+.schedule {
+    height: 50em;
+    padding-top: 2em;
+}
+
+.schedule h1 {    
+    text-align: center;
+    border-bottom: 8px solid #3666c0;
+    width: 185px;    
+}
+
+.schedule .wrapper {
+    height: 17.5em;
+    background:#c9e6ff;
+}
+
+.schedule .row {
+    padding-top: 2em;
+}
+
+#jobs {
+    padding-top: 2.5em;
+}
+#jobs select {
+    margin-bottom:1em;
+}
+
+.select-selected {
+    background-color: DodgerBlue
+}
+
+#jobs .wrapper {
+    background: #c9e6ff
+}
+
+select {
+    padding: 3px;
+    background: #f9feff
+    
+}
+select option {
+    padding:1px;
+}
+#jobs h2 {
+    padding-bottom: 0em;
+    padding-top: 20px;
+}
+
+.schedule h5 {
+    border-bottom: 3px solid #3666c0;
+    padding-bottom: 10px;
+}
+
+ .light{
+    background-color: #ccc;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#jobs h4 {
+    padding-bottom: 5px;
+}
+
+.pay {
+    text-align:center;
+	padding:10px;
+	background:#79c879;
+	color: #fff;
+	margin-bottom:10px;
+}
+.blue, #display button {
+    text-align:center;
+	padding:10px;
+	background:#92bde7;
+	color: #fff;
+    width: 100%;
+    margin-top: 2px; 
+    margin-bottom: 2px;    
+}
+
+.display h3 {
+    padding-bottom: 0px;
+}
+
+footer{
+	background-color:#3f5267;
+	width:auto;
+    height:65px;
+    margin-top: 45px;
+}
+
+#loginForm input {
+    width: 100%;
+}

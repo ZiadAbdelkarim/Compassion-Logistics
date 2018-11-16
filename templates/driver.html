@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	 
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link href= "main.css" rel="stylesheet" type ="text/css"/>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+    </head>
+    <body>
+
+        
+                <header>
+                        <!-- Navigation Bar -->			
+                            <nav class="navbar navbar-fixed-top is-scrolling navbar-toggleable-sm navbar-inverse" >
+                                <div class="container">
+                                    <div class="row">
+                                        <div class"navbar-header">
+                                            <div class="col-md-12">
+                                                <a href="#" class="navbar-brand scrollto"><span>Compassion Logistics</a>
+                                            </div>									
+                                        </div>
+                                    </div>
+                                        
+                                    <button class="navbar-toggler navbar-toggler-right navbar-inverse" type="button" data-toggle="collapse" data-target="#navbar-ziad" aria-controls="navbar-ziad" aria-expanded="false">
+                                            <span class="navbar-toggler-icon"></span> 
+                                    </button>											
+                                        
+                                    <div class="collapse navbar-collapse" id="navbar-ziad">
+                                                <ul class="navbar-nav ml-auto bg-main">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Home<a/></li>
+                                                    <li class="nav-item"><a class="nav-link" href= "#">Dashboard</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href= "Login.html">Sign Out</a></li>							
+                                                </ul>								
+                                    </div>
+                                        
+                                        
+                                    
+                                </div>
+                            </nav><!-- Navigation Bar -->			 
+                    </header>
+
+            <section id="jobs">
+            <div class="container">
+                <div class="wrapper">
+                    <h2>Available Pickups</h2>
+                       <div class="row">
+                            <div class="col-md-7">
+                                    <select size="5">
+                                        <option>Monday: 123 N Rainbow st to 456 S 7th rd, 4:30 pm, clothes</option>
+                                        <option>Tuesday: 123 N Rainbow st to 456 S 7th rd, 5:30 pm, Elderly Citizen </option>
+                                        <option>Thursday: 123 N Rainbow st to 456 S 7th rd, 6:30 am, furniture</option>
+                                        <option>Saturday: 123 N Rainbow st to 456 S 7th rd, 7:30 am, furniture and clothes</option>
+                                        <option>saturday: 123 N Rainbow st to 456 S 7th rd, 8:30 am, food</option>
+                                    </select>
+                                    <button type="submit" id="green">Accept Pickup</button>
+                                    <button type="submit" id="red">Remove Delivery</button>
+    
+                            </div>
+                            
+                            <div class="col-md-4 ">
+                                <div class="container">
+                                     <div class="blue">Points: 156</div>
+                                     <div class="blue">View past timesheets</div>                     
+                                </div>
+                            </div>
+                       </div>
+
+                </div>
+            </div>
+            </section>
+           
+               <div class="container schedule">
+                <div class="row">
+                        <h1 class="text-left underline">Schedule</h1>
+                        
+                </div>
+                <div class="row">
+                <div class="col-md-2">
+                    <div class="wrapper">
+                        <h5 class="text-center">Monday</h5>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                        <div class="wrapper">
+                            <h5 class="text-center">Tuesday</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="wrapper">
+                            <h5 class="text-center">Wednesday</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="wrapper">
+                            <h5 class="text-center">Thursday</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="wrapper">
+                            <h5 class="text-center">Friday</h5>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="wrapper">
+                            <h5 class="text-center">Saturday</h5>
+                        </div>
+                    </div>
+                </div>
+                </div>
+           </div>
+            
+           <footer>
+
+            </footer>      
+    </body>
+    
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+	<script src="main.js"></script>
+</html>

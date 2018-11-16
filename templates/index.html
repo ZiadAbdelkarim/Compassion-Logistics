@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	 
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link href= "main.css" rel="stylesheet" type ="text/css"/>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"> 
+    </head>
+    <body>
+
+        
+                <header>
+                        <!-- Navigation Bar -->			
+                            <nav class="navbar navbar-fixed-top is-scrolling navbar-toggleable-sm navbar-inverse" >
+                                <div class="container">
+                                    <div class="row">
+                                        <div class"navbar-header">
+                                            <div class="col-md-12">
+                                                <a href="#" class="navbar-brand scrollto"><span>Compassion Logistics</a>
+                                            </div>									
+                                        </div>
+                                    </div>
+                                        
+                                    <button class="navbar-toggler navbar-toggler-right navbar-inverse" type="button" data-toggle="collapse" data-target="#navbar-ziad" aria-controls="navbar-ziad" aria-expanded="false">
+                                            <span class="navbar-toggler-icon"></span> 
+                                    </button>											
+                                        
+                                    <div class="collapse navbar-collapse" id="navbar-ziad">
+                                                <ul class="navbar-nav ml-auto bg-main">
+                                                    <li class="nav-item"><a class="nav-link" href="#">Home<a/></li>
+                                                    <li class="nav-item"><a class="nav-link" href= "#">Dashboard</a></li>
+                                                    <li class="nav-item"><a class="nav-link" href= "Login.html">Sign Out</a></li>							
+                                                </ul>								
+                                    </div>
+                                        
+                                        
+                                    
+                                </div>
+                            </nav><!-- Navigation Bar -->			 
+                    </header>
+            <div class="container">  
+            <div class="row" id="requestForm">
+                    <div class="col-md-8">
+                              
+                                    <div class="wrapper">
+                                      <div class="company-info">
+                                            <h2 class="mx-auto text-center">Compassion Logistics</h2>
+                                            <ul class="info mx-auto text-center">					  
+                                                <li><i class="fa fa-phone"></i>  (480)-123-4567</li>
+                                                <li><i class="fa fa-envelope"></i> help@compassionlogistics.com</li>
+                                                
+                                            </ul>
+                                      </div>
+                                      <div class="request">		
+                                            <h3>Request Delivery</h3>
+                                          <div class="alert">Your request has been recieved</div>			
+                                        <form id="ContactForm">
+                                          <p>
+                                            <label>Organization</label>
+                                            <input type="text" name="company" id="company" required>
+                                          </p>
+                                          <p>
+                                            <label>Pickup</label>
+                                            <input type="address" name="pickupaddress" id="pickupaddress" required>
+                                          </p>
+                                          <p>
+                                            <label>Destination</label>
+                                            <input type="address" name="destination" id="destination" required>
+                                          </p>
+                                          <p>
+                                            <label>Phone Number</label>
+                                            <input type="text" name="phone" id="Phone">
+                                          </p>
+                                          <p class="full">
+                                            <label>Notes</label>
+                                            <textarea name="message" rows="5" id="message" placeholder="Time, Contents, Pickup Deadline, etc."></textarea>
+                                          </p>
+                                          <p class="full">
+                                            <button type="submit">Submit</button>
+                                          </p>
+                                        </form>
+                                      </div>
+                                    </div>
+                                  </div>
+                    
+
+
+                    <div class="col-md-4" id="display">                        
+							<div class="wrapper">
+                                <h3 class="text-md-center text-sm-center text-center">Deliveries</h3>
+                                <div class="container">
+                                        <table id="deliveries">
+                                                <tr>
+                                                    <td> 3:30pm 10/10/18 Accepted: no</td>                                       
+                                                </tr>
+                                                <tr>
+                                                    <td></td>                                       
+                                                </tr>
+                                                <tr>
+                                                    <td></td>                                       
+                                                </tr>
+                                                <tr>
+                                                    <td></td>                                       
+                                                </tr>
+                                                <tr>
+                                                    <td></td>                                       
+                                                </tr>
+                                                <tr>
+                                                    <td></td>                                       
+                                                </tr>
+                                                <tr>
+                                                    <td></td>                                       
+                                                </tr>
+                                        </table>
+                                        <button type="submit">Previous Deliveries</button>
+                                </div>
+                            </div>								
+						
+                    </div>
+
+                </div> 
+            </div>
+            <footer></footer>
+            
+    </body>
+    
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.0/firebase.js"></script>
+	<script src="main.js"></script>
+</html>
